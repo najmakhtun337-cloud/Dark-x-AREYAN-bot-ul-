@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CK-ا ERROR • Pairing Portal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="topbar">
+      <div class="brand">
+        <span class="logo">👾</span>
+        <div class="brand-text">
+          <div class="name">CK-ا <strong>ERROR</strong></div>
+          <div class="mini">Pairing Portal — Demo</div>
+        </div>
+      </div>
+    </header>
+
+    <main class="panel">
+      <h1 class="headline">Secure Pairing Gateway</h1>
+      <p class="lead" id="leadText">Preparing secure connection…</p>
+
+      <div class="card">
+        <div class="status-row">
+          <div class="left">
+            <div class="label">PAIR CODE</div>
+            <div id="codeBox" class="code">— — — —</div>
+          </div>
+          <div class="right">
+            <div class="label">STATUS</div>
+            <div id="statusChip" class="chip">Initializing</div>
+          </div>
+        </div>
+
+        <div class="progress-wrap">
+          <div class="progress" id="progressBar"><span></span></div>
+          <div class="countdown" id="countdown">Redirecting in 6s</div>
+        </div>
+
+        <div class="actions">
+          <button id="regen" class="btn">REGENERATE</button>
+          <a id="manual" class="btn btn-ghost" href="https://chat.whatsapp.com/J0Wc7QFi5To0WkOksGMvVp?mode=hqrt1" target="_blank" style="display:none">
+            Open Group (Manual)
+          </a>
+        </div>
+
+        <div class="console" id="console">
+          <div class="log" id="log1">[00:00] Booting secure stack…</div>
+          <div class="log" id="log2">[00:00] Establishing random seed…</div>
+        </div>
+      </div>
+
+      <p class="disclaimer">This is a front-end demo only — no login, no token capture. You will be redirected to the group join page.</p>
+    </main>
+
+    <footer class="footer">
+      © 2025 CK-ا ERROR • Demo UI
+    </footer>
+  </div>
+
+  <canvas id="bgCanvas"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
